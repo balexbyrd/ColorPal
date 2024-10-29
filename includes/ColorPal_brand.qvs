@@ -1,0 +1,41 @@
+﻿////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//////////           COMPANY BRANDING    ///////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+SUB cpal.brand.mhc
+  SET cpal.mhc.green		      =	argb($1, 141, 187, 1);
+  SET cpal.mhc.green.light		=	argb($1, 227, 236, 228);
+  SET cpal.mhc.green.dark 		=	argb($1, 34, 49, 34);
+  SET cpal.mhc.gray 		      =	argb($1, 84, 89, 91);
+  SET cpal.mhc.gray.light 		=	argb($1, 158, 165, 162);
+END SUB
+
+SUB cpal.brand.crth
+  SET cpal.crth.blue 		      =	argb($1, 58, 141, 222);
+  SET cpal.crth.blue.dark 		=	argb($1, 40, 109, 178);
+  SET cpal.crth.teal 		      =	argb($1, 59, 191, 173);
+  SET cpal.crth.orange 		    =	argb($1, 255, 131, 0);
+
+  SET cpal.crth.gray 		      =	argb($1, 54, 64, 74);
+  SET cpal.crth.gray.light 		=	argb($1, 237, 237, 236);
+
+END SUB
+
+SUB cpal.brand.compass
+  SET cpal.compass.beige		      =	argb($1, 179, 152, 90);
+  SET cpal.compass.beige.dark		  =	argb($1, 124, 104, 58);
+END SUB
+
+SUB cpal.brand.compass.digital
+  SET cpal.compass.digital.blue.light	=	argb($1, 12, 118, 216);
+  SET cpal.compass.digital.blue	      =	argb($1, 0, 51, 150);
+  SET cpal.compass.digital.blue.dark	      =	argb($1, 5, 14, 31);
+
+  SET cpal.compass.digital.teal 	    =	argb($1, 19, 214, 229);
+  SET cpal.compass.digital.teal.light =	argb($1, 16, 248, 249);
+
+  SET cpal.compass.purple.light	      =	argb($1, 172, 162, 234);
+  SET cpal.compass.purple     	      =	argb($1, 79, 0, 89);
+END SUB

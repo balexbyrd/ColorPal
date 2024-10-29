@@ -1,0 +1,305 @@
+﻿////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//////////     GOOGLE MATERIAL DESIGN    ///////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+// https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+
+SUB cpal.swat.google.red
+  SET cpal.google.red.50		=	argb($1, 255, 235, 238);
+  SET cpal.google.red.100		=	argb($1, 255, 205, 210);
+  SET cpal.google.red.200		=	argb($1, 239, 154, 154);
+  SET cpal.google.red.300		=	argb($1, 229, 115, 115);
+  SET cpal.google.red.400		=	argb($1, 239, 83, 80);
+  SET cpal.google.red.500		=	argb($1, 244, 67, 54);
+  SET cpal.google.red.600		=	argb($1, 229, 57, 53);
+  SET cpal.google.red.700		=	argb($1, 211, 47, 47);
+  SET cpal.google.red.800		=	argb($1, 198, 40, 40);
+  SET cpal.google.red.900		=	argb($1, 183, 28, 28);
+  SET cpal.google.red.A100	=	argb($1, 255, 138, 128);
+  SET cpal.google.red.A200	=	argb($1, 255, 82, 82);
+  SET cpal.google.red.A400	=	argb($1, 254, 23, 68);
+  SET cpal.google.red.A700	=	argb($1, 213, 0, 0);
+
+END SUB
+
+SUB cpal.swat.google.pink
+  SET cpal.google.pink.50		  =	argb($1, 252, 228, 236);
+  SET cpal.google.pink.100		=	argb($1, 248, 187, 208);
+  SET cpal.google.pink.200		=	argb($1, 244, 143, 177);
+  SET cpal.google.pink.300		=	argb($1, 240, 98, 146);
+  SET cpal.google.pink.400		=	argb($1, 236, 64, 122);
+  SET cpal.google.pink.500		=	argb($1, 233, 30, 99);
+  SET cpal.google.pink.600		=	argb($1, 216, 27, 96);
+  SET cpal.google.pink.700		=	argb($1, 194, 24, 91);
+  SET cpal.google.pink.800		=	argb($1, 173, 20, 87);
+  SET cpal.google.pink.900		=	argb($1, 136, 14, 79);
+  SET cpal.google.pink.A100	  =	argb($1, 255, 128, 171);
+  SET cpal.google.pink.A200	  =	argb($1, 255, 64, 129);
+  SET cpal.google.pink.A400	  =	argb($1, 245, 0, 87);
+  SET cpal.google.pink.A700	  =	argb($1, 197, 17, 98);  
+END SUB
+
+SUB cpal.swat.google.purple
+  SET cpal.google.purple.50		  =	argb($1, 243, 229, 245);
+  SET cpal.google.purple.100		=	argb($1, 225, 190, 231);
+  SET cpal.google.purple.200		=	argb($1, 206, 147, 216);
+  SET cpal.google.purple.300		=	argb($1, 186, 104, 200);
+  SET cpal.google.purple.400		=	argb($1, 171, 71, 188);
+  SET cpal.google.purple.500		=	argb($1, 156, 39, 176);
+  SET cpal.google.purple.600		=	argb($1, 141, 36, 169);
+  SET cpal.google.purple.700		=	argb($1, 123, 31, 162);
+  SET cpal.google.purple.800		=	argb($1, 106, 27, 154);
+  SET cpal.google.purple.900		=	argb($1, 74, 20, 140);
+  SET cpal.google.purple.A100	  =	argb($1, 234, 128, 252);
+  SET cpal.google.purple.A200	  =	argb($1, 224, 64, 251);
+  SET cpal.google.purple.A400	  =	argb($1, 213, 0, 249);
+  SET cpal.google.purple.A700	  =	argb($1, 170, 0, 255);  
+END SUB
+
+SUB cpal.swat.google.purple.deep
+  SET cpal.google.purple.deep.50		  =	argb($1, 237, 231, 246);
+  SET cpal.google.purple.deep.100		=	argb($1, 209, 196, 233);
+  SET cpal.google.purple.deep.200		=	argb($1, 179, 157, 219);
+  SET cpal.google.purple.deep.300		=	argb($1, 149, 117, 205);
+  SET cpal.google.purple.deep.400		=	argb($1, 126, 87, 194);
+  SET cpal.google.purple.deep.500		=	argb($1, 103, 58, 183);
+  SET cpal.google.purple.deep.600		=	argb($1, 94, 53, 177);
+  SET cpal.google.purple.deep.700		=	argb($1, 81, 45, 168);
+  SET cpal.google.purple.deep.800		=	argb($1, 69, 39, 160);
+  SET cpal.google.purple.deep.900		=	argb($1, 49, 27, 146);
+  SET cpal.google.purple.deep.A100	  =	argb($1, 179, 136, 255);
+  SET cpal.google.purple.deep.A200	  =	argb($1, 124, 77, 255);
+  SET cpal.google.purple.deep.A400	  =	argb($1, 101, 31, 255);
+  SET cpal.google.purple.deep.A700	  =	argb($1, 98, 0, 233);  
+END SUB
+
+SUB cpal.swat.google.indigo
+  SET cpal.google.indigo.50		  =	argb($1, 232, 234, 246);
+  SET cpal.google.indigo.100		=	argb($1, 197, 202, 233);
+  SET cpal.google.indigo.200		=	argb($1, 159, 168, 218);
+  SET cpal.google.indigo.300		=	argb($1, 121, 134, 203);
+  SET cpal.google.indigo.400		=	argb($1, 92, 107, 192);
+  SET cpal.google.indigo.500		=	argb($1, 63, 81, 181);
+  SET cpal.google.indigo.600		=	argb($1, 57, 73, 171);
+  SET cpal.google.indigo.700		=	argb($1, 48, 63, 159);
+  SET cpal.google.indigo.800		=	argb($1, 40, 53, 147);
+  SET cpal.google.indigo.900		=	argb($1, 26, 35, 126);
+  SET cpal.google.indigo.A100	  =	argb($1, 140, 158, 255);
+  SET cpal.google.indigo.A200	  =	argb($1, 83, 109, 254);
+  SET cpal.google.indigo.A400	  =	argb($1, 61, 90, 254);
+  SET cpal.google.indigo.A700	  =	argb($1, 48, 79, 254);    
+END SUB
+
+SUB cpal.swat.google.blue
+  SET cpal.google.blue.50		  =	argb($1, 227, 242, 253);
+  SET cpal.google.blue.100		=	argb($1, 187, 222, 251);
+  SET cpal.google.blue.200		=	argb($1, 144, 202, 249);
+  SET cpal.google.blue.300		=	argb($1, 100, 181, 246);
+  SET cpal.google.blue.400		=	argb($1, 66, 165, 245);
+  SET cpal.google.blue.500		=	argb($1, 33, 150, 243);
+  SET cpal.google.blue.600		=	argb($1, 30, 136, 229);
+  SET cpal.google.blue.700		=	argb($1, 25, 118, 210);
+  SET cpal.google.blue.800		=	argb($1, 21, 101, 192);
+  SET cpal.google.blue.900		=	argb($1, 13, 71, 161);
+  SET cpal.google.blue.A100	  =	argb($1, 130, 177, 255);
+  SET cpal.google.blue.A200	  =	argb($1, 68, 138, 255);
+  SET cpal.google.blue.A400	  =	argb($1, 41, 121, 255);
+  SET cpal.google.blue.A700	  =	argb($1, 41, 98, 255);    
+END SUB
+
+SUB cpal.swat.google.blue.light
+  SET cpal.google.blue.light.50		  =	argb($1, 225, 245, 254);
+  SET cpal.google.blue.light.100		=	argb($1, 179, 229, 252);
+  SET cpal.google.blue.light.200		=	argb($1, 129, 212, 250);
+  SET cpal.google.blue.light.300		=	argb($1, 79, 195, 247);
+  SET cpal.google.blue.light.400		=	argb($1, 41, 182, 246);
+  SET cpal.google.blue.light.500		=	argb($1, 3, 155, 229);
+  SET cpal.google.blue.light.600		=	argb($1, 3, 155, 229);
+  SET cpal.google.blue.light.700		=	argb($1, 2, 136, 209);
+  SET cpal.google.blue.light.800		=	argb($1, 2, 119, 189);
+  SET cpal.google.blue.light.900		=	argb($1, 1, 87, 155);
+  SET cpal.google.blue.light.A100	  =	argb($1, 128, 216, 255);
+  SET cpal.google.blue.light.A200	  =	argb($1, 64, 196, 255);
+  SET cpal.google.blue.light.A400	  =	argb($1, 0, 176, 255);
+  SET cpal.google.blue.light.A700	  =	argb($1, 0, 144, 233);     
+END SUB
+
+SUB cpal.swat.google.cyan
+  SET cpal.google.cyan.50		  =	argb($1, 224, 247, 250);
+  SET cpal.google.cyan.100		=	argb($1, 178, 235, 242);
+  SET cpal.google.cyan.200		=	argb($1, 128, 222, 234);
+  SET cpal.google.cyan.300		=	argb($1, 77, 208, 225);
+  SET cpal.google.cyan.400		=	argb($1, 38, 198, 218);
+  SET cpal.google.cyan.500		=	argb($1, 0, 188, 212);
+  SET cpal.google.cyan.600		=	argb($1, 0, 172, 193);
+  SET cpal.google.cyan.700		=	argb($1, 0, 151, 167);
+  SET cpal.google.cyan.800		=	argb($1, 0, 131, 143);
+  SET cpal.google.cyan.900		=	argb($1, 0, 96, 100);
+  SET cpal.google.cyan.A100	  =	argb($1, 132, 255, 255);
+  SET cpal.google.cyan.A200	  =	argb($1, 24, 255, 255);
+  SET cpal.google.cyan.A400	  =	argb($1, 0, 229, 255);
+  SET cpal.google.cyan.A700	  =	argb($1, 0, 184, 212);     
+END SUB
+
+SUB cpal.swat.google.teal
+  SET cpal.google.teal.50		  =	argb($1, 224, 242, 241);
+  SET cpal.google.teal.100		=	argb($1, 178, 223, 219);
+  SET cpal.google.teal.200		=	argb($1, 128, 203, 196);
+  SET cpal.google.teal.300		=	argb($1, 77, 182, 172);
+  SET cpal.google.teal.400		=	argb($1, 38, 166, 154);
+  SET cpal.google.teal.500		=	argb($1, 0, 150, 136);
+  SET cpal.google.teal.600		=	argb($1, 0, 137, 123);
+  SET cpal.google.teal.700		=	argb($1, 0, 121, 107);
+  SET cpal.google.teal.800		=	argb($1, 0, 105, 92);
+  SET cpal.google.teal.900		=	argb($1, 0, 77, 64);
+  SET cpal.google.teal.A100	  =	argb($1, 167, 255, 235);
+  SET cpal.google.teal.A200	  =	argb($1, 100, 255, 218);
+  SET cpal.google.teal.A400	  =	argb($1, 29, 233, 182);
+  SET cpal.google.teal.A700	  =	argb($1, 0, 191, 165);    
+END SUB
+
+SUB cpal.swat.google.green
+  SET cpal.google.green.50		=	argb($1, 232, 245, 233);
+  SET cpal.google.green.100		=	argb($1, 200, 230, 201);
+  SET cpal.google.green.200		=	argb($1, 165, 214, 167);
+  SET cpal.google.green.300		=	argb($1, 129, 199, 132);
+  SET cpal.google.green.400		=	argb($1, 102, 187, 106);
+  SET cpal.google.green.500		=	argb($1, 76, 175, 80);
+  SET cpal.google.green.600		=	argb($1, 67, 160, 71);
+  SET cpal.google.green.700		=	argb($1, 56, 142, 60);
+  SET cpal.google.green.800		=	argb($1, 46, 125, 50);
+  SET cpal.google.green.900		=	argb($1, 27, 94, 32);
+  SET cpal.google.green.A100	=	argb($1, 185, 246, 202);
+  SET cpal.google.green.A200	=	argb($1, 105, 240, 174);
+  SET cpal.google.green.A400	=	argb($1, 0, 230, 118);
+  SET cpal.google.green.A700	=	argb($1, 0, 200, 83);    
+END SUB
+
+SUB cpal.swat.google.green.light
+  SET cpal.google.green.light.50		=	argb($1, 241, 248, 233);
+  SET cpal.google.green.light.100		=	argb($1, 220, 237, 200);
+  SET cpal.google.green.light.200		=	argb($1, 197, 225, 165);
+  SET cpal.google.green.light.300		=	argb($1, 174, 213, 129);
+  SET cpal.google.green.light.400		=	argb($1, 156, 204, 101);
+  SET cpal.google.green.light.500		=	argb($1, 139, 195, 74);
+  SET cpal.google.green.light.600		=	argb($1, 124, 179, 66);
+  SET cpal.google.green.light.700		=	argb($1, 104, 159, 56);
+  SET cpal.google.green.light.800		=	argb($1, 85, 139, 47);
+  SET cpal.google.green.light.900		=	argb($1, 51, 105, 30);
+  SET cpal.google.green.light.A100	=	argb($1, 204, 255, 144);
+  SET cpal.google.green.light.A200	=	argb($1, 178, 255, 89);
+  SET cpal.google.green.light.A400	=	argb($1, 118, 255, 3);
+  SET cpal.google.green.light.A700	=	argb($1, 100, 221, 23);        
+END SUB
+
+SUB cpal.swat.google.lime
+  SET cpal.google.lime.50		  =	argb($1, 249, 251, 231);
+  SET cpal.google.lime.100		=	argb($1, 240, 244, 195);
+  SET cpal.google.lime.200		=	argb($1, 230, 238, 156);
+  SET cpal.google.lime.300		=	argb($1, 220, 231, 117);
+  SET cpal.google.lime.400		=	argb($1, 212, 225, 87);
+  SET cpal.google.lime.500		=	argb($1, 205, 220, 57);
+  SET cpal.google.lime.600		=	argb($1, 192, 202, 51);
+  SET cpal.google.lime.700		=	argb($1, 175, 180, 43);
+  SET cpal.google.lime.800		=	argb($1, 158, 157, 36);
+  SET cpal.google.lime.900		=	argb($1, 130, 119, 23);
+  SET cpal.google.lime.A100	  =	argb($1, 244, 255, 129);
+  SET cpal.google.lime.A200	  =	argb($1, 238, 255, 65);
+  SET cpal.google.lime.A400	  =	argb($1, 198, 255, 0);
+  SET cpal.google.lime.A700	  =	argb($1, 174, 234, 0);    
+END SUB
+
+SUB cpal.swat.google.yellow
+  SET cpal.google.yellow.50		  =	argb($1, 255, 253, 231);
+  SET cpal.google.yellow.100		=	argb($1, 255, 249, 196);
+  SET cpal.google.yellow.200		=	argb($1, 255, 245, 157);
+  SET cpal.google.yellow.300		=	argb($1, 255, 241, 118);
+  SET cpal.google.yellow.400		=	argb($1, 255, 238, 88);
+  SET cpal.google.yellow.500		=	argb($1, 255, 235, 59);
+  SET cpal.google.yellow.600		=	argb($1, 253, 216, 53);
+  SET cpal.google.yellow.700		=	argb($1, 251, 192, 45);
+  SET cpal.google.yellow.800		=	argb($1, 249, 168, 37);
+  SET cpal.google.yellow.900		=	argb($1, 245, 127, 23);
+  SET cpal.google.yellow.A100	  =	argb($1, 255, 255, 141);
+  SET cpal.google.yellow.A200	  =	argb($1, 255, 255, 0);
+  SET cpal.google.yellow.A400	  =	argb($1, 255, 234, 0);
+  SET cpal.google.yellow.A700	  =	argb($1, 255, 214, 0);   
+END SUB
+
+SUB cpal.swat.google.amber
+  SET cpal.google.amber.50		=	argb($1, 255, 248, 225);
+  SET cpal.google.amber.100		=	argb($1, 255, 236, 179);
+  SET cpal.google.amber.200		=	argb($1, 255, 224, 130);
+  SET cpal.google.amber.300		=	argb($1, 255, 213, 79);
+  SET cpal.google.amber.400		=	argb($1, 255, 202, 40);
+  SET cpal.google.amber.500		=	argb($1, 255, 193, 7);
+  SET cpal.google.amber.600		=	argb($1, 255, 179, 0);
+  SET cpal.google.amber.700		=	argb($1, 255, 160, 0);
+  SET cpal.google.amber.800		=	argb($1, 255, 143, 0);
+  SET cpal.google.amber.900		=	argb($1, 255, 111, 0);
+  SET cpal.google.amber.A100	=	argb($1, 255, 229, 127);
+  SET cpal.google.amber.A200	=	argb($1, 255, 215, 64);
+  SET cpal.google.amber.A400	=	argb($1, 255, 196, 0);
+  SET cpal.google.amber.A700	=	argb($1, 255, 171, 0);   
+END SUB
+
+SUB cpal.swat.google.orange
+  SET cpal.google.orange.50		  =	argb($1, 255, 243, 224);
+  SET cpal.google.orange.100		=	argb($1, 255, 224, 178);
+  SET cpal.google.orange.200		=	argb($1, 255, 204, 128);
+  SET cpal.google.orange.300		=	argb($1, 255, 183, 77);
+  SET cpal.google.orange.400		=	argb($1, 255, 167, 38);
+  SET cpal.google.orange.500		=	argb($1, 255, 152, 0);
+  SET cpal.google.orange.600		=	argb($1, 251, 140, 0);
+  SET cpal.google.orange.700		=	argb($1, 245, 124, 0);
+  SET cpal.google.orange.800		=	argb($1, 239, 108, 0);
+  SET cpal.google.orange.900		=	argb($1, 230, 81, 0);
+  SET cpal.google.orange.A100	  =	argb($1, 255, 209, 128);
+  SET cpal.google.orange.A200	  =	argb($1, 255, 171, 64);
+  SET cpal.google.orange.A400	  =	argb($1, 255, 145, 0);
+  SET cpal.google.orange.A700	  =	argb($1, 255, 109, 0);   
+END SUB
+
+SUB cpal.swat.google.orange.deep
+  SET cpal.google.orange.deep.50		=	argb($1, 251, 233, 231);
+  SET cpal.google.orange.deep.100		=	argb($1, 255, 204, 188);
+  SET cpal.google.orange.deep.200		=	argb($1, 255, 171, 145);
+  SET cpal.google.orange.deep.300		=	argb($1, 255, 138, 101);
+  SET cpal.google.orange.deep.400		=	argb($1, 255, 112, 67);
+  SET cpal.google.orange.deep.500		=	argb($1, 255, 87, 34);
+  SET cpal.google.orange.deep.600		=	argb($1, 243, 81, 30);
+  SET cpal.google.orange.deep.700		=	argb($1, 230, 74, 25);
+  SET cpal.google.orange.deep.800		=	argb($1, 216, 67, 21);
+  SET cpal.google.orange.deep.900		=	argb($1, 191, 54, 12);
+  SET cpal.google.orange.deep.A100	=	argb($1, 255, 209, 128);
+  SET cpal.google.orange.deep.A200	=	argb($1, 255, 158, 128);
+  SET cpal.google.orange.deep.A400	=	argb($1, 254, 61, 0);
+  SET cpal.google.orange.deep.A700	=	argb($1, 220, 44, 0);    
+END SUB
+
+SUB cpal.swat.google.gray
+  SET cpal.google.gray.50		  =	argb($1, 250, 250, 250);
+  SET cpal.google.gray.100		=	argb($1, 245, 245, 245);
+  SET cpal.google.gray.200		=	argb($1, 238, 238, 238);
+  SET cpal.google.gray.300		=	argb($1, 224, 224, 224);
+  SET cpal.google.gray.400		=	argb($1, 189, 189, 189);
+  SET cpal.google.gray.500		=	argb($1, 158, 158, 158);
+  SET cpal.google.gray.600		=	argb($1, 117, 117, 117);
+  SET cpal.google.gray.700		=	argb($1, 97, 97, 97);
+  SET cpal.google.gray.800		=	argb($1, 66, 66, 66);
+  SET cpal.google.gray.900		=	argb($1, 33, 33, 33);
+END SUB
+
+SUB cpal.swat.google.blue.gray
+  SET cpal.google.blue.gray.50		=	argb($1, 236, 239, 241);
+  SET cpal.google.blue.gray.100		=	argb($1, 207, 216, 220);
+  SET cpal.google.blue.gray.200		=	argb($1, 176, 190, 197);
+  SET cpal.google.blue.gray.300		=	argb($1, 144, 164, 174);
+  SET cpal.google.blue.gray.400		=	argb($1, 120, 144, 156);
+  SET cpal.google.blue.gray.500		=	argb($1, 95, 124, 138);
+  SET cpal.google.blue.gray.600		=	argb($1, 84, 110, 122);
+  SET cpal.google.blue.gray.700		=	argb($1, 69, 90, 100);
+  SET cpal.google.blue.gray.800		=	argb($1, 55, 71, 79);
+  SET cpal.google.blue.gray.900		=	argb($1, 38, 50, 56);
+END SUB

@@ -1,0 +1,1109 @@
+﻿////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//////////            DIVERGING        /////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+// https://colorbrewer2.org/
+// https://loading.io/color/feature/
+
+SUB cpal.div.earth // 7
+  SET cpal.div.earth.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(161, 105, 40),
+    rgb(237, 234, 194),
+    rgb(40, 135, 161),
+    );
+
+  SET cpal.div.earth.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(161, 105, 40),
+    rgb(214, 189, 141),
+    rgb(181, 200, 184),
+    rgb(40, 135, 161),
+    );
+
+  SET cpal.div.earth.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(161, 105, 40),
+    rgb(202, 168, 115),
+    rgb(237, 234, 194),
+    rgb(152, 183, 178),
+    rgb(40, 135, 161),
+    );
+
+  SET cpal.div.earth.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(161, 105, 40),
+    rgb(194, 155, 100),
+    rgb(224, 207, 162),
+    rgb(203, 213, 188),
+    rgb(133, 173, 175),
+    rgb(40, 135, 161),
+    );
+
+  SET cpal.div.earth.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(161, 105, 40),
+    rgb(189, 146, 90),
+    rgb(214, 189, 141),
+    rgb(237, 234, 194),
+    rgb(181, 200, 184),
+    rgb(121, 167, 172),
+    rgb(40, 135, 161)
+    );
+END SUB
+
+SUB cpal.div.fall // 7
+  SET cpal.div.fall.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(61, 89, 65),
+    rgb(246, 237, 189),
+    rgb(202, 86, 44),
+    );
+
+  SET cpal.div.fall.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(61, 89, 65),
+    rgb(181, 185, 145),
+    rgb(237, 187, 138),
+    rgb(202, 86, 44),
+    );
+
+  SET cpal.div.fall.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(61, 89, 65),
+    rgb(150, 160, 124),
+    rgb(246, 237, 189),
+    rgb(230, 162, 114),
+    rgb(202, 86, 44),
+    );
+
+  SET cpal.div.fall.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(61, 89, 65),
+    rgb(131, 145, 112),
+    rgb(206, 206, 162),
+    rgb(241, 207, 158),
+    rgb(225, 148, 100),
+    rgb(202, 86, 44),
+    );
+
+  SET cpal.div.fall.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(61, 89, 65),
+    rgb(119, 136, 104),
+    rgb(181, 185, 145),
+    rgb(246, 237, 189),
+    rgb(237, 187, 138),
+    rgb(222, 138, 90),
+    rgb(202, 86, 44),
+    );
+END SUB
+
+SUB cpal.div.geyser // 7
+  SET cpal.div.geyser.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(0, 128, 128),
+    rgb(246, 237, 189),
+    rgb(202, 86, 44), 
+    );
+
+  SET cpal.div.geyser.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(0, 128, 128),
+    rgb(180, 200, 168),
+    rgb(237, 187, 138),
+    rgb(202, 86, 44), 
+    );
+
+  SET cpal.div.geyser.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(0, 128, 128),
+    rgb(146, 182, 158),
+    rgb(246, 237, 189),
+    rgb(230, 162, 114),
+    rgb(202, 86, 44),  
+    );
+
+  SET cpal.div.geyser.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(0, 128, 128),
+    rgb(126, 171, 152),
+    rgb(206, 215, 177),
+    rgb(241, 207, 158),
+    rgb(225, 148, 100),
+    rgb(202, 86, 44),  
+    );
+
+  SET cpal.div.geyser.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(0, 128, 128),
+    rgb(112, 164, 148),
+    rgb(180, 200, 168),
+    rgb(246, 237, 189),
+    rgb(237, 187, 138),
+    rgb(222, 138, 90),
+    rgb(202, 86, 44),  
+    );
+END SUB
+
+SUB cpal.div.tealrose // 7
+  SET cpal.div.tealrose.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(0, 147, 146),
+    rgb(241, 234, 200),
+    rgb(208, 88, 126),
+    );
+
+  SET cpal.div.tealrose.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(0, 147, 146),
+    rgb(145, 184, 170),
+    rgb(223, 160, 160),
+    rgb(208, 88, 126),
+    );
+
+  SET cpal.div.tealrose.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(0, 147, 146),
+    rgb(145, 184, 170),
+    rgb(241, 234, 200),
+    rgb(223, 160, 160),
+    rgb(208, 88, 126),
+    );
+
+  SET cpal.div.tealrose.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(0, 147, 146),
+    rgb(114, 170, 161),
+    rgb(177, 199, 179),
+    rgb(229, 185, 173),
+    rgb(217, 137, 148),
+    rgb(208, 88, 126),
+    );
+
+  SET cpal.div.tealrose.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(0, 147, 146),
+    rgb(114, 170, 161),
+    rgb(177, 199, 179),
+    rgb(241, 234, 200),
+    rgb(229, 185, 173),
+    rgb(217, 137, 148),
+    rgb(208, 88, 126),
+    );
+END SUB
+
+SUB cpal.div.temps // 7
+  SET cpal.div.temps.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(0, 147, 146),
+    rgb(233, 226, 156),
+    rgb(207, 89, 126),
+    );
+
+  SET cpal.div.temps.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(0, 147, 146),
+    rgb(156, 203, 134),
+    rgb(238, 180, 121),
+    rgb(207, 89, 126),
+    );
+
+  SET cpal.div.temps.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(0, 147, 146),
+    rgb(113, 190, 131),
+    rgb(233, 226, 156),
+    rgb(237, 156, 114),
+    rgb(207, 89, 126),
+    );
+
+  SET cpal.div.temps.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(0, 147, 146),
+    rgb(82, 182, 132),
+    rgb(188, 212, 140),
+    rgb(237, 199, 131),
+    rgb(235, 141, 113),
+    rgb(207, 89, 126),
+    );
+
+  SET cpal.div.temps.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(0, 147, 146),
+    rgb(57, 177, 133),
+    rgb(156, 203, 134),
+    rgb(233, 226, 156),
+    rgb(238, 180, 121),
+    rgb(232, 132, 113),
+    rgb(207, 89, 126),
+    );
+END SUB
+
+SUB cpal.div.tropic // 7
+  SET cpal.div.tropic.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(0, 155, 158),
+    rgb(241, 241, 241),
+    rgb(199, 93, 171),
+    );
+
+  SET cpal.div.tropic.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(0, 155, 158),
+    rgb(167, 211, 212),
+    rgb(228, 193, 217),
+    rgb(199, 93, 171),
+    );
+
+  SET cpal.div.tropic.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(0, 155, 158),
+    rgb(124, 197, 198),
+    rgb(241, 241, 241),
+    rgb(221, 169, 205),
+    rgb(199, 93, 171),
+    );
+
+  SET cpal.div.tropic.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(0, 155, 158),
+    rgb(93, 188, 190),
+    rgb(198, 223, 223),
+    rgb(233, 212, 226),
+    rgb(217, 155, 198),
+    rgb(199, 93, 171),
+    );
+
+  SET cpal.div.tropic.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(0, 155, 158),
+    rgb(66, 183, 185),
+    rgb(167, 211, 212),
+    rgb(241, 241, 241),
+    rgb(228, 193, 217),
+    rgb(214, 145, 193),
+    rgb(199, 93, 171),
+    );
+END SUB
+
+SUB cpal.div.brbg // 11
+  SET cpal.div.brbg.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(216, 179, 101),
+    rgb(245, 245, 245),
+    rgb(90, 180, 172),
+    );
+
+  SET cpal.div.brbg.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(166, 97, 26),
+    rgb(223, 194, 125),
+    rgb(128, 205, 193),
+    rgb(1, 133, 113),
+    );
+
+  SET cpal.div.brbg.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(166, 97, 26),
+    rgb(223, 194, 125),
+    rgb(245, 245, 245),
+    rgb(128, 205, 193),
+    rgb(1, 133, 113),
+    );
+
+  SET cpal.div.brbg.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(140, 81, 10),
+    rgb(216, 179, 101),
+    rgb(246, 232, 195),
+    rgb(199, 234, 229),
+    rgb(90, 180, 172),
+    rgb(1, 102, 94),
+    );
+
+  SET cpal.div.brbg.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(140, 81, 10),
+    rgb(216, 179, 101),
+    rgb(246, 232, 195),
+    rgb(245, 245, 245),
+    rgb(199, 234, 229),
+    rgb(90, 180, 172),
+    rgb(1, 102, 94),
+    );
+
+  SET cpal.div.brbg.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(140, 81, 10),
+    rgb(191, 129, 45),
+    rgb(223, 194, 125),
+    rgb(246, 232, 195),
+    rgb(199, 234, 229),
+    rgb(128, 205, 193),
+    rgb(53, 151, 143),
+    rgb(1, 102, 94),
+    );
+
+  SET cpal.div.brbg.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(140, 81, 10),
+    rgb(191, 129, 45),
+    rgb(223, 194, 125),
+    rgb(246, 232, 195),
+    rgb(245, 245, 245),
+    rgb(199, 234, 229),
+    rgb(128, 205, 193),
+    rgb(53, 151, 143),
+    rgb(1, 102, 94),
+    );
+
+  SET cpal.div.brbg.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(84, 48, 5),
+    rgb(140, 81, 10),
+    rgb(191, 129, 45),
+    rgb(223, 194, 125),
+    rgb(246, 232, 195),
+    rgb(199, 234, 229),
+    rgb(128, 205, 193),
+    rgb(53, 151, 143),
+    rgb(1, 102, 94),
+    rgb(0, 60, 48),
+    );
+
+  SET cpal.div.brbg.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(84, 48, 5),
+    rgb(140, 81, 10),
+    rgb(191, 129, 45),
+    rgb(223, 194, 125),
+    rgb(246, 232, 195),
+    rgb(245, 245, 245),
+    rgb(199, 234, 229),
+    rgb(128, 205, 193),
+    rgb(53, 151, 143),
+    rgb(1, 102, 94),
+    rgb(0, 60, 48),
+    );
+END SUB
+
+SUB cpal.div.picnic // 11
+  SET cpal.div.picnic = Pick(rank($1,1,1),
+    rgb(0,0,255),
+    rgb(51,153,255),
+    rgb(102,204,255),
+    rgb(153,204,255),
+    rgb(204,204,255),
+    rgb(255,255,255),
+    rgb(255,204,255),
+    rgb(255,153,255),
+    rgb(255,102,204),
+    rgb(255,102,102),
+    rgb(255,0,0),
+    );
+END SUB
+
+SUB cpal.div.piyg // 11
+  SET cpal.div.piyg.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(233, 163, 201),
+    rgb(247, 247, 247),
+    rgb(161, 215, 106),
+    );
+
+  SET cpal.div.piyg.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(208, 28, 139),
+    rgb(241, 182, 218),
+    rgb(184, 225, 134),
+    rgb(77, 172, 38),
+    );
+
+  SET cpal.div.piyg.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(208, 28, 139),
+    rgb(241, 182, 218),
+    rgb(247, 247, 247),
+    rgb(184, 225, 134),
+    rgb(77, 172, 38),
+    );
+
+  SET cpal.div.piyg.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(197, 27, 125),
+    rgb(233, 163, 201),
+    rgb(253, 224, 239),
+    rgb(230, 245, 208),
+    rgb(161, 215, 106),
+    rgb(77, 146, 33),
+    );
+
+  SET cpal.div.piyg.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(197, 27, 125),
+    rgb(233, 163, 201),
+    rgb(253, 224, 239),
+    rgb(247, 247, 247),
+    rgb(230, 245, 208),
+    rgb(161, 215, 106),
+    rgb(77, 146, 33),
+    );
+
+  SET cpal.div.piyg.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(197, 27, 125),
+    rgb(222, 119, 174),
+    rgb(241, 182, 218),
+    rgb(253, 224, 239),
+    rgb(230, 245, 208),
+    rgb(184, 225, 134),
+    rgb(127, 188, 65),
+    rgb(77, 146, 33),
+    );
+
+  SET cpal.div.piyg.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(197, 27, 125),
+    rgb(222, 119, 174),
+    rgb(241, 182, 218),
+    rgb(253, 224, 239),
+    rgb(247, 247, 247),
+    rgb(230, 245, 208),
+    rgb(184, 225, 134),
+    rgb(127, 188, 65),
+    rgb(77, 146, 33),
+    );
+
+  SET cpal.div.piyg.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(142, 1, 82),
+    rgb(197, 27, 125),
+    rgb(222, 119, 174),
+    rgb(241, 182, 218),
+    rgb(253, 224, 239),
+    rgb(230, 245, 208),
+    rgb(184, 225, 134),
+    rgb(127, 188, 65),
+    rgb(77, 146, 33),
+    rgb(39, 100, 25),
+    );
+
+  SET cpal.div.piyg.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(142, 1, 82),
+    rgb(197, 27, 125),
+    rgb(222, 119, 174),
+    rgb(241, 182, 218),
+    rgb(253, 224, 239),
+    rgb(247, 247, 247),
+    rgb(230, 245, 208),
+    rgb(184, 225, 134),
+    rgb(127, 188, 65),
+    rgb(77, 146, 33),
+    rgb(39, 100, 25),
+    );
+END SUB
+
+SUB cpal.div.pugn // 11
+  SET cpal.div.pugn.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(175, 141, 195),
+    rgb(247, 247, 247),
+    rgb(127, 191, 123),
+    );
+
+  SET cpal.div.pugn.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(123, 50, 148),
+    rgb(194, 165, 207),
+    rgb(166, 219, 160),
+    rgb(0, 136, 55),
+    );
+
+  SET cpal.div.pugn.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(123, 50, 148),
+    rgb(194, 165, 207),
+    rgb(247, 247, 247),
+    rgb(166, 219, 160),
+    rgb(0, 136, 55),
+    );
+
+  SET cpal.div.pugn.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(118, 42, 131),
+    rgb(175, 141, 195),
+    rgb(231, 212, 232),
+    rgb(217, 240, 211),
+    rgb(127, 191, 123),
+    rgb(27, 120, 55),
+    );
+
+  SET cpal.div.pugn.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(118, 42, 131),
+    rgb(175, 141, 195),
+    rgb(231, 212, 232),
+    rgb(247, 247, 247),
+    rgb(217, 240, 211),
+    rgb(127, 191, 123),
+    rgb(27, 120, 55),
+    );
+
+  SET cpal.div.pugn.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(118, 42, 131),
+    rgb(153, 112, 171),
+    rgb(194, 165, 207),
+    rgb(231, 212, 232),
+    rgb(217, 240, 211),
+    rgb(166, 219, 160),
+    rgb(90, 174, 97),
+    rgb(27, 120, 55),
+    );
+
+  SET cpal.div.pugn.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(118, 42, 131),
+    rgb(153, 112, 171),
+    rgb(194, 165, 207),
+    rgb(231, 212, 232),
+    rgb(247, 247, 247),
+    rgb(217, 240, 211),
+    rgb(166, 219, 160),
+    rgb(90, 174, 97),
+    rgb(27, 120, 55),
+    );
+
+  SET cpal.div.pugn.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(64, 0, 75),
+    rgb(118, 42, 131),
+    rgb(153, 112, 171),
+    rgb(194, 165, 207),
+    rgb(231, 212, 232),
+    rgb(217, 240, 211),
+    rgb(166, 219, 160),
+    rgb(90, 174, 97),
+    rgb(27, 120, 55),
+    rgb(0, 68, 27),
+    );
+
+  SET cpal.div.pugn.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(64, 0, 75),
+    rgb(118, 42, 131),
+    rgb(153, 112, 171),
+    rgb(194, 165, 207),
+    rgb(231, 212, 232),
+    rgb(247, 247, 247),
+    rgb(217, 240, 211),
+    rgb(166, 219, 160),
+    rgb(90, 174, 97),
+    rgb(27, 120, 55),
+    rgb(0, 68, 27),
+    );
+END SUB
+
+SUB cpal.div.puor // 11
+  SET cpal.div.puor.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(241, 163, 64),
+    rgb(247, 247, 247),
+    rgb(153, 142, 195),
+    );
+
+  SET cpal.div.puor.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(230, 97, 1),
+    rgb(253, 184, 99),
+    rgb(178, 171, 210),
+    rgb(94, 60, 153),
+    );
+
+  SET cpal.div.puor.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(230, 97, 1),
+    rgb(253, 184, 99),
+    rgb(247, 247, 247),
+    rgb(178, 171, 210),
+    rgb(94, 60, 153),
+    );
+
+  SET cpal.div.puor.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(179, 88, 6),
+    rgb(241, 163, 64),
+    rgb(254, 224, 182),
+    rgb(216, 218, 235),
+    rgb(153, 142, 195),
+    rgb(84, 39, 136),
+    );
+
+  SET cpal.div.puor.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(179, 88, 6),
+    rgb(241, 163, 64),
+    rgb(254, 224, 182),
+    rgb(247, 247, 247),
+    rgb(216, 218, 235),
+    rgb(153, 142, 195),
+    rgb(84, 39, 136),
+    );
+
+  SET cpal.div.puor.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(179, 88, 6),
+    rgb(224, 130, 20),
+    rgb(253, 184, 99),
+    rgb(254, 224, 182),
+    rgb(216, 218, 235),
+    rgb(178, 171, 210),
+    rgb(128, 115, 172),
+    rgb(84, 39, 136),
+    );
+
+  SET cpal.div.puor.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(179, 88, 6),
+    rgb(224, 130, 20),
+    rgb(253, 184, 99),
+    rgb(254, 224, 182),
+    rgb(247, 247, 247),
+    rgb(216, 218, 235),
+    rgb(178, 171, 210),
+    rgb(128, 115, 172),
+    rgb(84, 39, 136),
+    );
+
+  SET cpal.div.puor.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(127, 59, 8),
+    rgb(179, 88, 6),
+    rgb(224, 130, 20),
+    rgb(253, 184, 99),
+    rgb(254, 224, 182),
+    rgb(216, 218, 235),
+    rgb(178, 171, 210),
+    rgb(128, 115, 172),
+    rgb(84, 39, 136),
+    rgb(45, 0, 75),
+    );
+
+  SET cpal.div.puor.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(127, 59, 8),
+    rgb(179, 88, 6),
+    rgb(224, 130, 20),
+    rgb(253, 184, 99),
+    rgb(254, 224, 182),
+    rgb(247, 247, 247),
+    rgb(216, 218, 235),
+    rgb(178, 171, 210),
+    rgb(128, 115, 172),
+    rgb(84, 39, 136),
+    rgb(45, 0, 75),
+    );
+END SUB
+
+SUB cpal.div.rdbu // 11
+  SET cpal.div.rdbu.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(239, 138, 98),
+    rgb(247, 247, 247),
+    rgb(103, 169, 207),
+    );
+
+  SET cpal.div.rdbu.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(202, 0, 32),
+    rgb(244, 165, 130),
+    rgb(146, 197, 222),
+    rgb(5, 113, 176),
+    );
+
+  SET cpal.div.rdbu.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(202, 0, 32),
+    rgb(244, 165, 130),
+    rgb(247, 247, 247),
+    rgb(146, 197, 222),
+    rgb(5, 113, 176),
+    );
+
+  SET cpal.div.rdbu.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(178, 24, 43),
+    rgb(239, 138, 98),
+    rgb(253, 219, 199),
+    rgb(209, 229, 240),
+    rgb(103, 169, 207),
+    rgb(33, 102, 172),
+    );
+
+  SET cpal.div.rdbu.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(178, 24, 43),
+    rgb(239, 138, 98),
+    rgb(253, 219, 199),
+    rgb(247, 247, 247),
+    rgb(209, 229, 240),
+    rgb(103, 169, 207),
+    rgb(33, 102, 172),
+    );
+
+  SET cpal.div.rdbu.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(209, 229, 240),
+    rgb(146, 197, 222),
+    rgb(67, 147, 195),
+    rgb(33, 102, 172),
+    );
+
+  SET cpal.div.rdbu.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(247, 247, 247),
+    rgb(209, 229, 240),
+    rgb(146, 197, 222),
+    rgb(67, 147, 195),
+    rgb(33, 102, 172),
+    );
+
+  SET cpal.div.rdbu.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(103, 0, 31),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(209, 229, 240),
+    rgb(146, 197, 222),
+    rgb(67, 147, 195),
+    rgb(33, 102, 172),
+    rgb(5, 48, 97),
+    );
+
+  SET cpal.div.rdbu.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(103, 0, 31),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(247, 247, 247),
+    rgb(209, 229, 240),
+    rgb(146, 197, 222),
+    rgb(67, 147, 195),
+    rgb(33, 102, 172),
+    rgb(5, 48, 97),
+    );
+END SUB
+
+SUB cpal.div.rdgy // 11
+  SET cpal.div.rdgy.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(239, 138, 98),
+    rgb(255, 255, 255),
+    rgb(153, 153, 153),
+    );
+
+  SET cpal.div.rdgy.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(202, 0, 32),
+    rgb(244, 165, 130),
+    rgb(186, 186, 186),
+    rgb(64, 64, 64),
+    );
+
+  SET cpal.div.rdgy.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(202, 0, 32),
+    rgb(244, 165, 130),
+    rgb(255, 255, 255),
+    rgb(186, 186, 186),
+    rgb(64, 64, 64),
+    );
+
+  SET cpal.div.rdgy.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(178, 24, 43),
+    rgb(239, 138, 98),
+    rgb(253, 219, 199),
+    rgb(224, 224, 224),
+    rgb(153, 153, 153),
+    rgb(77, 77, 77),
+    );
+
+  SET cpal.div.rdgy.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(178, 24, 43),
+    rgb(239, 138, 98),
+    rgb(253, 219, 199),
+    rgb(255, 255, 255),
+    rgb(224, 224, 224),
+    rgb(153, 153, 153),
+    rgb(77, 77, 77),
+    );
+
+  SET cpal.div.rdgy.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(224, 224, 224),
+    rgb(186, 186, 186),
+    rgb(135, 135, 135),
+    rgb(77, 77, 77),
+    );
+
+  SET cpal.div.rdgy.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(255, 255, 255),
+    rgb(224, 224, 224),
+    rgb(186, 186, 186),
+    rgb(135, 135, 135),
+    rgb(77, 77, 77),
+    );
+
+  SET cpal.div.rdgy.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(103, 0, 31),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(224, 224, 224),
+    rgb(186, 186, 186),
+    rgb(135, 135, 135),
+    rgb(77, 77, 77),
+    rgb(26, 26, 26),
+    );
+
+  SET cpal.div.rdgy.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(103, 0, 31),
+    rgb(178, 24, 43),
+    rgb(214, 96, 77),
+    rgb(244, 165, 130),
+    rgb(253, 219, 199),
+    rgb(255, 255, 255),
+    rgb(224, 224, 224),
+    rgb(186, 186, 186),
+    rgb(135, 135, 135),
+    rgb(77, 77, 77),
+    rgb(26, 26, 26),
+    );
+END SUB
+
+SUB cpal.div.rdylbu // 11
+  SET cpal.div.rdylbu.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(252, 141, 89),
+    rgb(255, 255, 191),
+    rgb(145, 191, 219),
+    );
+
+  SET cpal.div.rdylbu.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(215, 25, 28),
+    rgb(253, 174, 97),
+    rgb(171, 217, 233),
+    rgb(44, 123, 182),
+    );
+
+  SET cpal.div.rdylbu.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(215, 25, 28),
+    rgb(253, 174, 97),
+    rgb(255, 255, 191),
+    rgb(171, 217, 233),
+    rgb(44, 123, 182),
+    );
+
+  SET cpal.div.rdylbu.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(215, 48, 39),
+    rgb(252, 141, 89),
+    rgb(254, 224, 144),
+    rgb(224, 243, 248),
+    rgb(145, 191, 219),
+    rgb(69, 117, 180),
+    );
+
+  SET cpal.div.rdylbu.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(215, 48, 39),
+    rgb(252, 141, 89),
+    rgb(254, 224, 144),
+    rgb(255, 255, 191),
+    rgb(224, 243, 248),
+    rgb(145, 191, 219),
+    rgb(69, 117, 180),
+    );
+
+  SET cpal.div.rdylbu.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 144),
+    rgb(224, 243, 248),
+    rgb(171, 217, 233),
+    rgb(116, 173, 209),
+    rgb(69, 117, 180),
+    );
+
+  SET cpal.div.rdylbu.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 144),
+    rgb(255, 255, 191),
+    rgb(224, 243, 248),
+    rgb(171, 217, 233),
+    rgb(116, 173, 209),
+    rgb(69, 117, 180),
+    );
+
+  SET cpal.div.rdylbu.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(165, 0, 38),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 144),
+    rgb(224, 243, 248),
+    rgb(171, 217, 233),
+    rgb(116, 173, 209),
+    rgb(69, 117, 180),
+    rgb(49, 54, 149),
+    );
+
+  SET cpal.div.rdylbu.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(165, 0, 38),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 144),
+    rgb(255, 255, 191),
+    rgb(224, 243, 248),
+    rgb(171, 217, 233),
+    rgb(116, 173, 209),
+    rgb(69, 117, 180),
+    rgb(49, 54, 149),
+    );
+END SUB
+
+SUB cpal.div.rdylgn // 11
+  SET cpal.div.rdylgn.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(252, 141, 89),
+    rgb(255, 255, 191),
+    rgb(145, 207, 96),
+    );
+
+  SET cpal.div.rdylgn.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(215, 25, 28),
+    rgb(253, 174, 97),
+    rgb(166, 217, 106),
+    rgb(26, 150, 65),
+    );
+
+  SET cpal.div.rdylgn.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(215, 25, 28),
+    rgb(253, 174, 97),
+    rgb(255, 255, 191),   
+    rgb(166, 217, 106),
+    rgb(26, 150, 65),
+    );
+
+  SET cpal.div.rdylgn.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(215, 48, 39),
+    rgb(252, 141, 89),
+    rgb(254, 224, 139),   
+    rgb(217, 239, 139),
+    rgb(145, 207, 96),
+    rgb(26, 152, 80),
+    );
+
+  SET cpal.div.rdylgn.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(215, 48, 39),
+    rgb(252, 141, 89),
+    rgb(254, 224, 139),
+    rgb(255, 255, 191),    
+    rgb(217, 239, 139),
+    rgb(145, 207, 96),
+    rgb(26, 152, 80),
+    );
+
+  SET cpal.div.rdylgn.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 139),
+    rgb(217, 239, 139),
+    rgb(166, 217, 106),
+    rgb(102, 189, 99),
+    rgb(0, 104, 55),
+    );
+
+  SET cpal.div.rdylgn.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 139),
+    rgb(255, 255, 191),
+    rgb(217, 239, 139),
+    rgb(166, 217, 106),
+    rgb(102, 189, 99),
+    rgb(0, 104, 55),
+    );
+
+  SET cpal.div.rdylgn.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(165, 0, 38),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 139),
+    rgb(217, 239, 139),
+    rgb(166, 217, 106),
+    rgb(102, 189, 99),
+    rgb(26, 152, 80),
+    rgb(0, 104, 55),
+    );
+
+  SET cpal.div.rdylgn.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(165, 0, 38),
+    rgb(215, 48, 39),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 144),
+    rgb(255, 255, 191),
+    rgb(217, 239, 139),
+    rgb(166, 217, 106),
+    rgb(102, 189, 99),
+    rgb(26, 152, 80),
+    rgb(0, 104, 55),
+    );
+END SUB
+
+SUB cpal.div.spectral // 11
+  SET cpal.div.spectral.3 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),3),
+    rgb(252, 141, 89),
+    rgb(255, 255, 191),
+    rgb(153, 213, 148),
+    );
+
+  SET cpal.div.spectral.4 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),4),
+    rgb(215, 25, 28),
+    rgb(253, 174, 97),
+    rgb(171, 221, 164),
+    rgb(43, 131, 186),
+    );
+
+  SET cpal.div.spectral.5 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),5),
+    rgb(215, 25, 28),
+    rgb(253, 174, 97),
+    rgb(255, 255, 191),
+    rgb(171, 221, 164),
+    rgb(43, 131, 186),
+    );
+
+  SET cpal.div.spectral.6 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),6),
+    rgb(213, 62, 79),
+    rgb(252, 141, 89),
+    rgb(254, 224, 139),
+    rgb(230, 245, 152),
+    rgb(153, 213, 148),
+    rgb(50, 136, 189),
+    );
+
+  SET cpal.div.spectral.7 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),7),
+    rgb(213, 62, 79),
+    rgb(252, 141, 89),
+    rgb(254, 224, 139),
+    rgb(255, 255, 191),
+    rgb(230, 245, 152),
+    rgb(153, 213, 148),
+    rgb(50, 136, 189),
+    );
+
+  SET cpal.div.spectral.8 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),8),
+    rgb(213, 62, 79),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 139),
+    rgb(230, 245, 152),
+    rgb(171, 221, 164),
+    rgb(102, 194, 165),
+    rgb(50, 136, 189),
+    );
+
+  SET cpal.div.spectral.9 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),9),
+    rgb(213, 62, 79),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 139),
+    rgb(255, 255, 191),
+    rgb(230, 245, 152),
+    rgb(171, 221, 164),
+    rgb(102, 194, 165),
+    rgb(50, 136, 189),
+    );
+
+  SET cpal.div.spectral.10 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),10),
+    rgb(158, 1, 66),
+    rgb(213, 62, 79),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 139),
+    rgb(230, 245, 152),
+    rgb(171, 221, 164),
+    rgb(102, 194, 165),
+    rgb(50, 136, 189),
+    rgb(94, 79, 162),
+    );
+
+  SET cpal.div.spectral.11 =Pick(RangeMin(round(($1-RangeMin (top(total $1,1,NoOfRows(total))))/(RangeMax (top(total $1,1,NoOfRows(total)))-RangeMin (top(total $1,1,NoOfRows(total))))*10+1),11),
+    rgb(158, 1, 66),
+    rgb(213, 62, 79),
+    rgb(244, 109, 67),
+    rgb(253, 174, 97),
+    rgb(254, 224, 139),
+    rgb(255, 255, 191),
+    rgb(230, 245, 152),
+    rgb(171, 221, 164),
+    rgb(102, 194, 165),
+    rgb(50, 136, 189),
+    rgb(94, 79, 162),
+    );
+END SUB
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//////////        END OF DIVERGING     /////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////

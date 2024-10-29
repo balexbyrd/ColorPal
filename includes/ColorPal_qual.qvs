@@ -1,0 +1,794 @@
+﻿////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//////////          QUALITATIVE        /////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+SUB cpal.qual.morris // 3
+  SET cpal.qual.morris = Pick(rank($1,1,1),
+    rgb(59,175,218),
+    rgb(220,220,220),
+    rgb(128,222,234),
+    );  
+END SUB
+
+SUB cpal.qual.flot // 4
+  SET cpal.qual.flot = Pick(rank($1,1,1),
+    rgb(0,177,157),
+    rgb(128,222,234),
+    rgb(38,198,218),
+    rgb(59,175,218),
+    );  
+END SUB
+
+SUB cpal.qual.scuba // 4
+  SET cpal.qual.scuba = Pick(rank($1,1,1),
+    rgb(13,65,87),
+    rgb(233,96,44),
+    rgb(165,219,239),
+    rgb(221,217,215),
+    );  
+END SUB
+
+SUB cpal.qual.hot // 4
+  SET cpal.qual.hot = Pick(rank($1,1,1),
+    rgb(0,0,0),
+    rgb(230,0,0),
+    rgb(255,210,0),
+    rgb(255,255,255),
+    );  
+END SUB
+
+SUB cpal.qual.google // 4
+  SET cpal.qual.google = Pick(rank($1,1,1),
+    rgb(61,121,243),
+    rgb(230,53,47),
+    rgb(249,185,10),
+    rgb(52,167,75),
+    );
+END SUB
+
+SUB cpal.qual.compote // 4
+  SET cpal.qual.compote = Pick(rank($1,1,1),
+    rgb(137,62,86),
+    rgb(78,90,131),
+    rgb(187,172,209),
+    rgb(225,225,225),
+    );
+END SUB
+
+SUB cpal.qual.fall // 4
+  SET cpal.qual.fall = Pick(rank($1,1,1),
+    rgb(67,60,77),
+    rgb(124,25,57),
+    rgb(242,188,32),
+    rgb(154,205,247),
+    );
+END SUB
+
+SUB cpal.qual.pebble // 4
+  SET cpal.qual.pebble = Pick(rank($1,1,1),
+    rgb(58,53,64),
+    rgb(137,122,135),
+    rgb(214,187,166),
+    rgb(240,228,232),
+    );
+END SUB
+
+SUB cpal.qual.bootstrap // 5
+  SET cpal.qual.bootstrap = Pick(rank($1,1,1),
+    rgb(51, 122, 183),
+    rgb(91, 192, 222),
+    rgb(92, 184, 92),
+    rgb(240, 173, 78),
+    rgb(217, 83, 79),
+    );
+END SUB
+
+SUB cpal.qual.scholar // 5
+  SET cpal.qual.scholar = Pick(rank($1,1,1),
+    rgb(43,62,86),
+    rgb(205,167,37),
+    rgb(197,203,211),
+    rgb(241,241,231),
+    );
+END SUB
+
+SUB cpal.qual.espresso // 5
+  SET cpal.qual.espresso = Pick(rank($1,1,1),
+    rgb(35,102,192),
+    rgb(233,215,56),
+    rgb(185,18,38),
+    rgb(163,218,75),
+    rgb(255,100,53),
+    );
+END SUB
+
+SUB cpal.qual.brave // 5
+  SET cpal.qual.brave = Pick(rank($1,1,1),
+    rgb(168,100,59),
+    rgb(182,91,35),
+    rgb(148,34,14),
+    rgb(39,45,23),
+    rgb(32,33,38),
+    );
+END SUB
+
+SUB cpal.qual.bugs // 5
+  SET cpal.qual.bugs = Pick(rank($1,1,1),
+    rgb(102,120,64),
+    rgb(186,214,168),
+    rgb(133,199,193),
+    rgb(165,154,107),
+    rgb(103,85,63),
+    );
+END SUB
+
+SUB cpal.qual.cars // 5
+  SET cpal.qual.cars = Pick(rank($1,1,1),
+    rgb(231,176,143),
+    rgb(136,76,73),
+    rgb(224,54,58),
+    rgb(106,29,26),
+    rgb(157,218,230),
+  );
+END SUB
+
+SUB cpal.qual.nemo // 5
+  SET cpal.qual.nemo = Pick(rank($1,1,1),
+    rgb(251,207,53),
+    rgb(237,76,28),
+    rgb(156,126,112),
+    rgb(90,194,241),
+    rgb(17,119,108),
+    );
+END SUB
+
+SUB cpal.qual.rat // 5
+  SET cpal.qual.rat = Pick(rank($1,1,1),
+    rgb(159,77,35),
+    rgb(146,43,73),
+    rgb(178,29,19),
+    rgb(127,134,36),
+    rgb(241,156,31),
+    );
+END SUB
+
+SUB cpal.qual.up // 5
+  SET cpal.qual.up = Pick(rank($1,1,1),
+    rgb(95,140,244),
+    rgb(220,214,252),
+    rgb(226,122,72),
+    rgb(96,86,70),
+    rgb(67,65,89),
+    );
+END SUB
+
+SUB cpal.qual.emo // 5
+  SET cpal.qual.emo = Pick(rank($1,1,1),
+    rgb(85,98,112),
+    rgb(78,205,196),
+    rgb(199,244,100),
+    rgb(255,107,107),
+    rgb(196,77,88),
+    );
+END SUB
+
+SUB cpal.qual.asana // 5
+  SET cpal.qual.asana = Pick(rank($1,1,1),
+    rgb(59, 232, 176),
+    rgb(26, 175, 208),
+    rgb(106, 103, 206),
+    rgb(255, 185, 0),
+    rgb(252, 99, 107),
+    );
+END SUB
+
+SUB cpal.qual.pancake // 5
+  SET cpal.qual.pancake = Pick(rank($1,1,1),
+    rgb(89,79,79),
+    rgb(84,121,128),
+    rgb(69,173,168),
+    rgb(157,224,173),
+    rgb(229,252,194),
+    );
+END SUB
+
+SUB cpal.qual.lubitel // 5
+  SET cpal.qual.lubitel = Pick(rank($1,1,1),
+    rgb(55,58,69),
+    rgb(194,194,194),
+    rgb(179,152,109),
+    rgb(120,36,29),
+    rgb(94,62,53),
+    );
+END SUB
+
+SUB cpal.qual.portland // 5
+  SET cpal.qual.portland = Pick(rank($1,1,1),
+    rgb(12,51,131),
+    rgb(10,136,186),
+    rgb(242,211,56),
+    rgb(242,143,56),
+    rgb(217,30,30),
+    );
+END SUB
+
+SUB cpal.qual.seattlegrays // 5
+  SET cpal.qual.seattlegrays = Pick(rank($1,1,1),
+    rgb(92,96,104),
+    rgb(118,127,139),
+    rgb(179,183,184),
+    rgb(211,211,211),
+    rgb(152,156,163)
+    );
+END SUB
+
+SUB cpal.qual.blackbody // 5
+  SET cpal.qual.blackbody = Pick(rank($1,1,1),
+    rgb(0,0,0),
+    rgb(230,0,0),
+    rgb(230,210,0),
+    rgb(255,255,255),
+    rgb(160,200,255),
+    );
+END SUB
+
+SUB cpal.qual.jet // 6
+  SET cpal.qual.jet = Pick(rank($1,1,1),
+    rgb(0,0,131),
+    rgb(0,60,170),
+    rgb(5,255,255),
+    rgb(255,255,0),
+    rgb(250,0,0),
+    rgb(128,0,0),
+    );
+END SUB
+
+SUB cpal.qual.earth // 6
+  SET cpal.qual.earth = Pick(rank($1,1,1),
+    rgb(0,0,130),
+    rgb(0,180,180),
+    rgb(40,210,40),
+    rgb(230,230,50),
+    rgb(120,70,20),
+    rgb(255,255,255),
+    );
+END SUB
+
+SUB cpal.qual.electric // 6
+  SET cpal.qual.electric = Pick(rank($1,1,1),
+    rgb(0,0,0),
+    rgb(30,0,100),
+    rgb(120,0,100),
+    rgb(160,90,0),
+    rgb(230,200,0),
+    rgb(255,250,220),
+    );
+END SUB
+
+SUB cpal.qual.decision // 6
+  SET cpal.qual.decision = Pi // 6ck(rank($1,1,1),
+    rgb(213,122,109),
+    rgb(232,183,98),
+    rgb(156,205,223),
+    rgb(82,80,82),
+    rgb(230,206,175),
+    rgb(186,149,112),
+    );
+END SUB
+
+SUB cpal.qual.southpark // 6
+  SET cpal.qual.southpark = Pick(rank($1,1,1),
+    rgb(47,134,255),
+    rgb(235,171,22),
+    rgb(222,0,18),
+    rgb(34,196,8),
+    rgb(254,205,170),
+    rgb(241,72,9),
+    );
+END SUB
+
+SUB cpal.qual.evildead // 6
+  SET cpal.qual.evildead = Pick(rank($1,1,1),
+    rgb(25,24,13),
+    rgb(33,37,16),
+    rgb(46,16,11),
+    rgb(57,46,18),
+    rgb(87,81,43),
+    rgb(150,142,76),
+    );
+END SUB
+
+SUB cpal.qual.appletv // 6
+  SET cpal.qual.appletv = Pick(rank($1,1,1),
+    rgb(95,178,51),
+    rgb(106,127,147),
+    rgb(245,114,6),
+    rgb(235,15,19),
+    rgb(143,47,139),
+    rgb(19,150,219),
+    );
+END SUB
+
+SUB cpal.qual.powerbi.7 // 7
+  SET cpal.qual.powerbi.7 = Pick(rank($1,1,1),
+    rgb(1,184,170),
+    rgb(253,98,94),
+    rgb(242,200,15),
+    rgb(95,107,109),
+    rgb(138,212,235),
+    rgb(254,150,102),
+    rgb(166,105,153)
+    );
+END SUB
+
+SUB cpal.qual.usualsuspects // 7
+  SET cpal.qual.usualsuspects = Pick(rank($1,1,1),
+    rgb(50,51,55),
+    rgb(83,76,83),
+    rgb(63,81,106),
+    rgb(155,102,89),
+    rgb(232,59,65),
+    rgb(159,156,162),
+    rgb(234,174,157),
+    );
+END SUB
+
+SUB cpal.qual.ohbrother // 7
+  SET cpal.qual.ohbrother = Pick(rank($1,1,1),
+    rgb(26,15,10),
+    rgb(61,41,26),
+    rgb(113,86,57),
+    rgb(116,125,109),
+    rgb(173,157,11),
+    rgb(148,196,223),
+    rgb(230,221,168),
+    );
+END SUB
+
+SUB cpal.qual.ipod // 7
+  SET cpal.qual.ipod = Pick(rank($1,1,1),
+    rgb(215,215,215),
+    rgb(243,174,175),
+    rgb(174,173,176),
+    rgb(158,217,191),
+    rgb(92,203,235),
+    rgb(222,235,97),
+    rgb(242,242,242),
+    );
+END SUB
+
+SUB cpal.qual.eternal // 7
+  SET cpal.qual.eternal = Pick(rank($1,1,1),
+    rgb(23,12,46),
+    rgb(117,16,41),
+    rgb(82,25,76),
+    rgb(71,59,117),
+    rgb(77,112,156),
+    rgb(111,118,107),
+    rgb(146,173,196),
+    );
+END SUB
+
+SUB cpal.qual.chartist // 7
+  SET cpal.qual.chartist = Pick(rank($1,1,1),
+    rgb(61,220,247),
+    rgb(0,177,157),
+    rgb(247,99,151),
+    rgb(59,175,218),
+    rgb(255,170,0),
+    rgb(114,102,186),
+    rgb(121,121,121),   
+    );
+END SUB
+
+SUB cpal.qual.nvd3 // 8
+  SET cpal.qual.nvd3 = Pick(rank($1,1,1),
+    rgb(0,177,157),
+    rgb(239,83,80),
+    rgb(61,220,247),
+    rgb(255,170,0),
+    rgb(129,200,104),
+    rgb(220,220,220),
+    rgb(51,51,51),
+    rgb(59,175,218),      
+    );
+END SUB
+
+SUB cpal.qual.chartjs // 9
+  SET cpal.qual.chartjs = Pick(rank($1,1,1),
+    rgb(239,83,80),
+    rgb(82,187,86),
+    rgb(241,181,61),
+    rgb(3,156,253),
+    rgb(103,209,248),
+    rgb(114,102,186),
+    rgb(247,99,151),
+    rgb(238,238,238),
+    rgb(95,190,170),  
+    );
+END SUB
+
+SUB cpal.qual.pony // 9
+  SET cpal.qual.pony = Pick(rank($1,1,1),
+    rgb(235,82,145),
+    rgb(251,187,104),
+    rgb(245,186,207),
+    rgb(157,218,245),
+    rgb(99,81,160),
+    rgb(236,241,244),
+    rgb(254,247,158),
+    rgb(23,148,206),
+    rgb(151,44,141),
+    );
+END SUB
+
+SUB cpal.qual.info // 9
+  SET cpal.qual.info = Pick(rank($1,1,1),
+    rgb(231,105,93),
+    rgb(107,137,147),
+    rgb(246,240,212),
+    rgb(149,206,138),
+    rgb(210,210,210),
+    rgb(148,212,212),
+    rgb(150,150,150),
+    rgb(241,243,232),
+    rgb(136,119,95),  
+    );
+END SUB
+
+SUB cpal.qual.basel // 10
+  SET cpal.qual.basel = Pick(rank($1,1,1),
+    rgb(12,91,176),
+    rgb(238,0,17),
+    rgb(21,152,61),
+    rgb(236,87,154),
+    rgb(250,107,9),
+    rgb(20,155,237),
+    rgb(161,199,32),
+    rgb(254,193,11),
+    rgb(22,160,140),
+    rgb(154,112,62),  
+    );
+END SUB
+
+SUB cpal.qual.colorblind // 10
+  SET cpal.qual.colorblind = Pick(rank($1,1,1),
+    rgb(17,112,170),
+    rgb(252,125,11),
+    rgb(163,172,185),
+    rgb(87,96,108),
+    rgb(95,162,206),
+    rgb(200,82,0),
+    rgb(123,132,143),
+    rgb(163,204,233),
+    rgb(255,188,121),
+    rgb(200,208,217),  
+    );
+END SUB
+
+SUB cpal.qual.superfishelstone // 10
+  SET cpal.qual.superfishelstone = Pick(rank($1,1,1),
+    rgb(99,136,180),
+    rgb(255,174,52),
+    rgb(239,111,106),
+    rgb(140,194,202),
+    rgb(85,173,137),
+    rgb(195,188,63),
+    rgb(187,118,147),
+    rgb(186,160,148),
+    rgb(169,181,174),
+    rgb(118,118,118),  
+    );
+END SUB
+
+SUB cpal.qual.tableau // 10
+  SET cpal.qual.tableau = Pick(rank($1,1,1),
+    rgb(78,121,167),
+    rgb(242,142,43),
+    rgb(225,87,89),
+    rgb(118,183,178),
+    rgb(89,161,78),
+    rgb(237,201,73),
+    rgb(176,122,161),
+    rgb(255,157,167),
+    rgb(156,117,95),
+    rgb(186,176,172)
+    );
+END SUB
+
+SUB cpal.qual.tableau.classic.10 // 10
+  SET cpal.qual.tableau.classic.10 = Pick(rank($1,1,1),
+    rgb(31,119,180),
+    rgb(255,127,15),
+    rgb(44,160,44),
+    rgb(214,39,40),
+    rgb(148,103,189),
+    rgb(140,86,75),
+    rgb(227,119,194),
+    rgb(127,127,127),
+    rgb(188,189,34),
+    rgb(23,190,206)  
+    );
+END SUB
+
+SUB cpal.qual.tableau.classic.medium // 10
+  SET cpal.qual.tableau.classic = Pick(rank($1,1,1),
+    rgb(114,158,206),
+    rgb(255,158,74),
+    rgb(103,191,92),
+    rgb(237,102,93),
+    rgb(173,139,201),
+    rgb(168,120,110),
+    rgb(237,151,202),
+    rgb(162,162,162),
+    rgb(205,204,93),
+    rgb(109,204,218)
+    );
+END SUB
+
+SUB cpal.qual.info2 // 14
+  SET cpal.qual.info2 = Pick(rank($1,1,1),
+    rgb(0,106,64),
+    rgb(240,136,146),
+    rgb(117,180,30),
+    rgb(149,130,141),
+    rgb(112,140,152),
+    rgb(138,184,207),
+    rgb(0,126,127),
+    rgb(53,131,89),
+    rgb(139,161,188),
+    rgb(90,88,149),
+    rgb(242,153,12),
+    rgb(90,88,149),
+    rgb(229,186,58),
+    rgb(216,108,79),
+    );
+END SUB
+
+SUB cpal.qual.tableau.classic.20 // 20
+  SET cpal.qual.tableau.classic.20 = Pick(rank($1,1,1),
+    rgb(31,119,180),
+    rgb(174,199,232),
+    rgb(255,127,14),
+    rgb(255,187,120),
+    rgb(44,160,44),
+    rgb(152,223,138),
+    rgb(214,39,40),
+    rgb(255,152,150),
+    rgb(148,103,189),
+    rgb(197,176,213),
+    rgb(140,86,75),
+    rgb(196,156,148),
+    rgb(227,119,194),
+    rgb(247,182,210),
+    rgb(127,127,127),
+    rgb(199,199,199),
+    rgb(188,189,34),
+    rgb(219,219,141),
+    rgb(23,190,207),
+    rgb(158,218,229)  
+    );
+END SUB
+
+SUB cpal.qual.tableau.20 // 20
+  SET cpal.qual.tableau.20 = Pick(rank($1,1,1),
+    rgb(78,121,167),
+    rgb(160,203,232),
+    rgb(242,142,43),
+    rgb(255,190,125),
+    rgb(89,161,79),
+    rgb(140,209,125),
+    rgb(182,153,45),
+    rgb(241,206,99),
+    rgb(73,152,148),
+    rgb(134,188,182),
+    rgb(225,87,89),
+    rgb(255,157,154),
+    rgb(121,112,110), 
+    rgb(186,176,172), 
+    rgb(211,114,149), 
+    rgb(250,191,210), 
+    rgb(176,122,161), 
+    rgb(212,166,200), 
+    rgb(157,118,96), 
+    rgb(215,181,166),    
+    );
+END SUB
+
+SUB cpal.qual.powerbi.24
+  SET cpal.qual.powerbi.24 = Pick(rank($1,1,1),
+    rgb(1,184,170),
+    rgb(55,70,73),
+    rgb(253,98,94),
+    rgb(242,200,15),
+    rgb(95,107,109),
+    rgb(138,212,235),
+    rgb(254,150,102),
+    rgb(166,105,153),
+    rgb(53,153,184),
+    rgb(223,191,191),
+    rgb(74,197,187),
+    rgb(251,130,129),
+    rgb(244,210,90), 
+    rgb(127,137,138), 
+    rgb(164,221,238), 
+    rgb(253,171,137), 
+    rgb(182,135,172), 
+    rgb(40,115,138), 
+    rgb(167,143,143), 
+    rgb(22,137,128), 
+    rgb(41,53,55), 
+    rgb(187,74,74), 
+    rgb(181,149,37), 
+    rgb(71,80,82),
+    );
+END SUB
+
+SUB cpal.qual.accent // 8
+  SET cpal.qual.accent = Pick(rank($1,1,1),
+    rgb(127, 201, 127),
+    rgb(190, 174, 212),
+    rgb(253, 192, 134),
+    rgb(255, 255, 153),
+    rgb(56, 108, 176),
+    rgb(240, 2, 127),
+    rgb(191, 91, 23),
+    rgb(102, 102, 102),
+    );
+END SUB
+
+SUB cpal.qual.dark2 // 8
+  SET cpal.qual.dark2 = Pick(rank($1,1,1),
+    rgb(27, 158, 119),
+    rgb(217, 95, 2),
+    rgb(117, 112, 179),
+    rgb(231, 41, 138),
+    rgb(102, 166, 30),
+    rgb(230, 171, 2),
+    rgb(166, 118, 29),
+    rgb(102, 102, 102),
+    );
+END SUB
+ 
+SUB cpal.qual.pastel2 // 8
+  SET cpal.qual.pastel2 = Pick(rank($1,1,1),
+    rgb(179, 226, 205),
+    rgb(253, 205, 172),
+    rgb(203, 213, 232),
+    rgb(244, 202, 228),
+    rgb(230, 245, 201),
+    rgb(255, 242, 174),
+    rgb(241, 226, 204),
+    rgb(204, 204, 204),
+    );
+END SUB
+
+SUB cpal.qual.xmen // 8
+  SET cpal.qual.xmen = Pick(rank($1,1,1),
+    rgb(2,108,203),
+    rgb(245,30,2),
+    rgb(5,177,2),
+    rgb(251,159,83),
+    rgb(155,155,155),
+    rgb(251,130,190),
+    rgb(186,98,34),
+    rgb(238,194,41),
+    );
+END SUB
+
+SUB cpal.qual.set2 // 8
+  SET cpal.qual.set2 = Pick(rank($1,1,1),
+    rgb(102, 194, 165),
+    rgb(252, 141, 98),
+    rgb(141, 160, 203),
+    rgb(231, 138, 195),
+    rgb(166, 216, 84),
+    rgb(255, 217, 47),
+    rgb(229, 196, 148),
+    rgb(179, 179, 179),
+    );
+END SUB
+
+SUB cpal.qual.set1 // 9
+  SET cpal.qual.set1 = Pick(rank($1,1,1),
+    rgb(228, 26, 28),
+    rgb(55, 126, 184),
+    rgb(77, 175, 74),
+    rgb(152, 78, 163),
+    rgb(255, 127, 0),
+    rgb(255, 255, 51),
+    rgb(166, 86, 40),
+    rgb(247, 129, 191),
+    rgb(153, 153, 153),
+    );
+END SUB
+
+SUB cpal.qual.pastel1 // 9
+  SET cpal.qual.pastel1 = Pick(rank($1,1,1),
+    rgb(251, 180, 174),
+    rgb(179, 205, 227),
+    rgb(204, 235, 197),
+    rgb(222, 203, 228),
+    rgb(254, 217, 166),
+    rgb(255, 255, 204),
+    rgb(229, 216, 189),
+    rgb(253, 218, 236),
+    rgb(242, 242, 242),
+    );
+END SUB
+
+SUB cpal.qual.prism // 12
+  SET cpal.qual.prism = Pick(rank($1,1,1),
+    rgb(95, 70, 144),
+    rgb(29, 105, 150),
+    rgb(56, 166, 165),
+    rgb(15, 133, 84),
+    rgb(115, 175, 72),
+    rgb(237, 173, 8),
+    rgb(225, 124, 5),
+    rgb(204, 80, 62),
+    rgb(148, 52, 110),
+    rgb(111, 64, 112),
+    rgb(153, 78, 149),    
+    rgb(102, 102, 102),
+    );
+END SUB
+
+SUB cpal.qual.bold // 12
+  SET cpal.qual.bold = Pick(rank($1,1,1),
+    rgb(127, 60, 141),
+    rgb(17, 165, 121),
+    rgb(57, 105, 172),
+    rgb(242, 183, 1),
+    rgb(231, 63, 116),
+    rgb(128, 186, 90),
+    rgb(230, 131, 16),
+    rgb(0, 134, 149),
+    rgb(207, 28, 144),
+    rgb(249, 123, 114),
+    rgb(75, 75, 143),    
+    rgb(165, 170, 153),
+    );
+END SUB
+
+SUB cpal.qual.paired // 12
+  SET cpal.qual.paired = Pick(rank($1,1,1),
+    rgb(166, 206, 227),
+    rgb(31, 120, 180),
+    rgb(178, 223, 138),
+    rgb(51, 160, 44),
+    rgb(251, 154, 153),
+    rgb(227, 26, 28),
+    rgb(253, 191, 111),
+    rgb(255, 127, 0),
+    rgb(202, 178, 214),
+    rgb(106, 61, 154),
+    rgb(255, 255, 153),
+    rgb(177, 89, 40),
+    );
+END SUB
+
+SUB cpal.qual.set3
+  SET cpal.qual.set3 = Pick(rank($1,1,1),
+    rgb(141, 211, 199),
+    rgb(255, 255, 179),
+    rgb(190, 186, 218),
+    rgb(251, 128, 114),
+    rgb(128, 177, 211),
+    rgb(253, 180, 98),
+    rgb(179, 222, 105),
+    rgb(252, 205, 229),
+    rgb(217, 217, 217),
+    rgb(188, 128, 189),
+    rgb(204, 235, 197),
+    rgb(255, 237, 111),
+    );
+END SUB
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+//////////      END OF QUALITATIVE     /////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
